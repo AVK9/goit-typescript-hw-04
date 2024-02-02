@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import RequestComponent from './homework/2';
+import { ComponentApp } from './homework/4';
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
         >
           Learn React
         </a>
+
+        <RequestComponent />
+        <ComponentApp/>
       </header>
     </div>
   );
